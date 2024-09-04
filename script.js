@@ -1,9 +1,12 @@
-const maxEntrda = prompt("Digite o Numero Mais Alto do Bingo ?") 
+const maxEntrda = prompt("Digite o Número Mais Alto do Bingo ?") 
 
+const lastCall = document.querySelector(".lastCall")
 const numerosChamados = document.querySelector(".numerosChamados")
 const numerosChamadosEmOrdem = document.querySelector(".numerosEmOrdem")
 
 max = maxEntrda 
+
+
 
 const numerosBingo= []
 
@@ -46,7 +49,7 @@ function mostrarUmaUm(){
         numerosEmOrdem.push(numerosBingo[contador])
         ordenarNumeros(numerosEmOrdem)
         atualizarordem()
-      
+        lastCall.innerHTML=numerosBingo[contador]
         
     }else {
         console.log("acabou o bingo")

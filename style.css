@@ -48,3 +48,8 @@ button {
     display: flex;
     
 }
+
+.lastCall {
+    font-size: 30px;
+    padding: 12px;
+}
