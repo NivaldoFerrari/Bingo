@@ -27,11 +27,12 @@ button {
     color: white;
     font-size: 28px;
     transition: 0.3s;
+    
 }
 button:hover {
     border-color: #F7941E;
     color: #0166B4;
-    
+    cursor: pointer;
 }
 .caixas {
     display: flex;
